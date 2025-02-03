@@ -58,14 +58,43 @@ my_newest_list.insert(12, my_second_list[2])
 print(my_newest_list)
 
 #TUPLES
-new_tuple = ('Manitoba', 'Saskatchewan', 'Ontario', 'Quebec')
-print(type(new_tuple))
-print(new_tuple)
+ca_provinces = ('Manitoba', 'Saskatchewan', 'Ontario', 'Quebec')
+print(type(ca_provinces))
+print(ca_provinces)
 
 
+#DICTIONARIES
+coin_values = {'nickel' : 0.05, 'dime' : 0.1, "quarter" : 0.25}
+print(type(coin_values))
+print(coin_values)
+
+coin_values['nickel'] = round(coin_values['nickel'] * 100)
+coin_values['dime'] = round(coin_values['dime'] * 100)
+coin_values['quarter'] = round(coin_values['quarter'] * 100)
+print(coin_values)
+
+coin_values['loonie'] = 100
+coin_values['toonie'] = 200
+print(coin_values)
 
 
+#SETS
+odd_numbers = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
+print(type(odd_numbers))
+print(odd_numbers)
 
+fives = {5, 10, 15, 20}
+print(fives)
 
+unique_values = odd_numbers.union(fives)
+print(unique_values)
 
+common_values = odd_numbers.intersection(fives)
+print(common_values)
+
+multiples_of_2 = odd_numbers - fives
+print(multiples_of_2)
+
+multiples_of_5 = fives - odd_numbers
+print(multiples_of_5)
 
