@@ -23,3 +23,8 @@ A small collection of files to be ignored by GIT when tracking changes
 All of the content you have read and are currently reading on this page
 (Documentation, credit, project name)
 
+## seth_b_assignment.py
+Contains several mathematic operations, data types, and sets, tuples, lists and collections.
+Also contains code modifying each of these things, as well as printing out data types,
+to ensure that all of my code is under the correct data type.
+
