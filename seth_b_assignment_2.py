@@ -57,6 +57,11 @@ my_newest_list.insert(11, my_second_list[1])
 my_newest_list.insert(12, my_second_list[2])
 print(my_newest_list)
 
+#TUPLES
+new_tuple = ('Manitoba', 'Saskatchewan', 'Ontario', 'Quebec')
+print(type(new_tuple))
+print(new_tuple)
+
 
 
 
